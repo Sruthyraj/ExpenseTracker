@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(228, 220, 220);
+    text-align: center;
+    color: black;
+}
+
+#id{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 50px;
+    text-shadow: 2px 2px 1px rgb(128, 118, 118);
+}
+#expense{
+    font-size: 25px;
+
+}
+#amount{
+    color: red;
+    font-weight: bold;
+}
+
+.add{
+   
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+border: none;
+transition: background-color .15s;
+transition: color .2s;
+}
+
+.add:hover{
+    background-color: white;
+    color: black;
+
+}
